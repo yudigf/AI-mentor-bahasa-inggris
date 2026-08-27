@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+.git
+.env
+.env.*
+src/output
+src/temp
+*.wav
+*.ogg
+*.pdf
