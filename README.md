@@ -20,14 +20,18 @@ Bot ini dapat langsung diakses oleh siapa saja di aplikasi Telegram tanpa perlu 
 
 | Fitur | Cara Pakai / Contoh Pesan | Yang Akan Diterima Pengguna |
 |---|---|---|
-| **Pendaftaran / Menu** | `/start` | Sambutan ramah & panduan cara menggunakan bot. |
+| **Pendaftaran / Menu** | `/start` | Sambutan ramah & panduan lengkap fitur bot. |
 | **Latihan Reading** | `buatkan soal reading tentang liburan` | Teks bacaan pendek dalam Bahasa Inggris + 3 pertanyaan pemahaman. |
 | **Cek Grammar (Writing)** | `periksa: I goes to school yesterday` | Analisis kesalahan tata bahasa, kalimat yang benar, dan penjelasan ramah. |
 | **Latihan Listening** | `buatkan latihan listening tentang memesan kopi` | **File Audio (Text-to-Speech)** percakapan 2 orang (*Puck* & *Kore*) + daftar pertanyaan kuis. |
 | **Latihan Speaking** | `buatkan tugas speaking` | Instruksi tema berbicara, panduan durasi (~1 menit), dan contoh kalimat pembuka. |
 | **Evaluasi Suara (Speaking)** | Kirim **Voice Note (VN)** berbicara bahasa Inggris | Skor pelafalan (*pronunciation*), feedback sandwich, dan tips perbaikan cara membaca kata. |
-| **Tips Belajar Harian** | `kasih tips belajar` | Tips dan motivasi praktis belajar Bahasa Inggris harian. |
+| **Simulasi TOEFL** | `buatkan 5 soal TOEFL Structure pilihan ganda` | Kuis soal structure standar TOEFL beserta kunci & pembahasannya. |
+| **Simulasi IELTS** | `periksa esai IELTS Writing Task 2 saya ini: [teks]` | Evaluasi esai sesuai 4 kriteria IELTS + estimasi Band Score. |
+| **Rumus & Grammar** | `jelaskan rumus 16 tenses lengkap` | Tabel rumus positif/negatif/tanya, contoh kalimat, dan tips menghafal. |
+| **Tips Belajar & Ujian** | `kasih tips belajar / trik reading ujian` | Tips dan motivasi praktis belajar & strategi ujian Bahasa Inggris. |
 | **Laporan Belajar (PDF)** | `/report` | **File Dokumen PDF** berisi rangkuman aktivitas belajar dan penilaian selama 7 hari terakhir. |
+
 
 ---
 

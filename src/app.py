@@ -47,15 +47,27 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_repository.save_user(user_id=user_id, username=username, chat_id=chat_id)
 
     safe_text = to_telegram_markdown(
-        f"Halo!, Selamat datang {username} di Mentor Bahasa Inggris Virtual.\n"
-        "Aku siap bantu kamu untuk belajar bahasa inggris! \n"
-        "Kamu bisa langsung coba ketik pesan seperti ini: \n"
-        "- *buatkan soal reading*\n"
-        "- *periksa: I goes to school*\n"
-        "- *kasih tips belajar*\n"
-        "atau ngobrol bebas untuk melatih *speaking atau writing* kamu!\n"
-        "- Ketik /start untuk mendaftarkan akun dan mulai belajar\n"
-        "- Ketik /report untuk membuat laporan belajar\n",
+        f"Halo, Selamat datang {username} di *Mentor Bahasa Inggris AI*! 👋\n\n"
+        "Aku siap bantu kamu belajar bahasa Inggris dari level pemula hingga persiapan ujian internasional.\n\n"
+        "💡 *Contoh hal yang bisa kamu tanyakan/coba:*\n\n"
+        "📚 *Latihan 4 Skill Dasar:*\n"
+        "- *buatkan soal reading tentang liburan*\n"
+        "- *buatkan latihan listening tentang di kafe* (dapat file audio TTS!)\n"
+        "- *periksa: I goes to school yesterday* (cek & perbaiki grammar)\n"
+        "- Kirim *Voice Note (VN)* untuk evaluasi pelafalan (*speaking*)\n\n"
+        "🏛️ *Persiapan Ujian TOEFL & IELTS:*\n"
+        "- *buatkan 5 soal TOEFL Structure pilihan ganda*\n"
+        "- *buatkan latihan IELTS Reading True/False/Not Given*\n"
+        "- *periksa esai IELTS Writing Task 2 saya ini: [teks]*\n"
+        "- *berikan topik latihan IELTS Speaking Part 2*\n\n"
+        "📐 *Rumus Tata Bahasa & Tips:*\n"
+        "- *jelaskan rumus 16 tenses lengkap*\n"
+        "- *apa bedanya Simple Past dan Present Perfect?*\n"
+        "- *kasih tips & trik mengerjakan reading ujian*\n\n"
+        "📌 *Perintah Menu:*\n"
+        "- Ketik /report untuk membuat Laporan Belajar Mingguan (PDF)\n"
+        "- Ketik /start untuk melihat panduan ini lagi\n\n"
+        "Yuk, langsung ketik pesan atau kirim voice note kamu sekarang! 🚀",
     )
 
     await update.effective_message.reply_text(safe_text)
