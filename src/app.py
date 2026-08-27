@@ -226,8 +226,8 @@ def run():
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
     app.add_handler(MessageHandler(filters.VOICE, handle_voice))
 
-    # scheduler
-    target_time = time(hour=10, minute=3, second=0, tzinfo=timezone)
+    # scheduler (setiap hari jam 06:00 WIB pagi)
+    target_time = time(hour=6, minute=0, second=0, tzinfo=timezone)
     app.job_queue.run_daily(
         callback=task_reminder, time=target_time, name="task_reminder"
     )

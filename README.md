@@ -32,7 +32,8 @@ Bot ini dapat langsung diakses oleh siapa saja di aplikasi Telegram tanpa perlu 
 ---
 
 ### 3. Notifikasi Pengingat Otomatis ⏰
-Bot secara otomatis akan mengirimkan pesan motivasi dan pengingat latihan setiap hari pada pukul **10:03 WIB** kepada semua pengguna yang sudah terdaftar.
+Bot secara otomatis akan mengirimkan pesan motivasi dan pengingat latihan setiap hari pada pukul **06:00 WIB** kepada semua pengguna yang sudah terdaftar.
+
 
 ---
 
